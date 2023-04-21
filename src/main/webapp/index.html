@@ -7,36 +7,37 @@
     </head>
     <body>
         <h1>Buenas noches</h1>
-        
-        <form action="Controlador">
-        <label for="NumDoc">Digite su numero de documento</label>
-        <input type="text" id="NumDoc">
-        
-        <br>
-        
-        <label for="correo">Digite su correo electronico</label>
-        <input type="text" id="correo">
-        
-         <br>
-        
-        <label for="telefono">Digite su numero de telefono</label>
-        <input type="text" id="telefono">
-        
-         <br>
-        
-        <label for="nombres">Digite sus Nombres</label>
-        <input type="text" id="nombres">
-        
-         <br>
-        
-        <label for="Apellido">Digite sus Apellidos</label>
-        <input type="text" id="Apellido">
-        
-        <br>
-        
-       </form>
-        
-        
-        <input class="btn-btn-primary" type="submit" name="action" value="agregar">
+         <div class="container">    
+            <div class col-lg-6">
+                <form action="ControladorAprendiz">
+                <label for="NumDoc">Digite su numero de documento</label>
+                <input type="text" id="NumDoc" name="txtdoc">
+
+                <br>
+
+                <label for="correo">Digite su correo electronico</label>
+                <input type="text" id="correo" name="txtemail>
+
+                 <br>
+
+                <label for="telefono">Digite su numero de telefono</label>
+                <input type="text" id="telefono" name="txttel>
+
+                 <br>
+
+                <label for="nombres">Digite sus Nombres</label>
+                <input type="text" id="nombres" name="txtnom>
+
+                 <br>
+
+                <label for="Apellido">Digite sus Apellidos</label>
+                <input type="text" id="Apellido" name="txtape>
+
+                <br>
+
+               </form>
+            </div>
+        </div>
+        <input class="btn-btn-primary" type="submit" name="accion" value="Agregar">
     </body>
 </html>
